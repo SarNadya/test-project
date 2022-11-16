@@ -3,6 +3,7 @@ body {
     padding: 0;
     min-width: 320px;
     max-width: 1920px;
+    color: grey;
 }
 
 .App {
@@ -13,38 +14,33 @@ body {
 
 .item_1 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #E0E0E0;
+    background: url('../img/1.jpg') right/100% repeat;
     grid-row-start: span 3;
 }
 
 .item_2 {
-    text-align: center;
-    border: 1px dashed grey;
+    text-align: left;
     padding: 30px;
-    background-color: #E0E0E0;
+    background-color: #dad6d6;
     grid-column-start: span 3;
 }
 
 .item_3 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #202020;
+    background-color: #282727;
 }
 
 .item_4 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #202020;
+    background: url('../img/1254.jpg') right/100% repeat;
     grid-row-start: span 3;
 }
 
 .item_5 {
-    text-align: center;
-    border: 1px dashed grey;
+    text-align: left;
     padding: 30px;
     background-color: #FFF01E;
     grid-column-start: span 2;
@@ -52,51 +48,58 @@ body {
 
 .item_6 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #E0E0E0;
+    background-color: #dad6d6;
 }
 
 .item_7 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #FFFAFA;
 }
 
 .item_8 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #E0E0E0;
+    background-color: #dad6d6;
     grid-column-start: span 2;
 }
 
 .item_9 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #0080FF;
+    background-color: #3491ee;
+}
+
+.PlayCircleIcon {
+    margin-top: 30px;
 }
 
 .item_10 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
-    background-color: #202020;
+    background-color: #282727;
 }
 
 .item_11 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #F5F5F5;
     grid-row-start: span 8;
 }
 
+.item_12 {
+    text-align: left;
+    padding: 30px;
+    background-color: #FFFAFA;
+}
+
+.item_13 {
+    background: url('../img/293.jpg') right/100% repeat;
+}
+
 .item_16 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #F5F5F5;
     grid-row-start: span 2;
@@ -104,14 +107,12 @@ body {
 
 .item_21 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #FFF01E;
 }
 
 .item_23 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #202020;
     grid-column-start: span 3;
@@ -119,23 +120,20 @@ body {
 
 .item_24 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #fff;
     grid-column-start: span 2;
 }
 
 .item_25 {
-    text-align: center;
-    border: 1px dashed grey;
+    text-align: left;
     padding: 30px;
-    background-color: #E0E0E0;
+    background-color: #dad6d6;
     grid-column-start: span 2;
 }
 
 .item_26 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #F5F5F5;
     grid-row-start: span 5;
@@ -143,24 +141,46 @@ body {
 
 .item_27 {
     text-align: center;
-    border: 1px dashed grey;
     padding: 30px;
     background-color: #FFEFD5;
     grid-column-start: span 2;
 }
 
+.item_28 {
+    text-align: left;
+    padding: 30px;
+    background-color: #FFFAFA;
+}
+
+.item_29 {
+    text-align: left;
+    padding: 30px;
+    background: url('../img/293.jpg') right/100% repeat;
+}
+
+.item_32 {
+    text-align: left;
+    padding: 30px;
+    background: url('../img/293.jpg') right/100% repeat;
+}
+
 .item_34 {
-    text-align: center;
-    border: 1px dashed grey;
+    text-align: left;
     padding: 30px;
     background-color: #fff;
     grid-row-start: span 2;
 }
 
 .item_35 {
-    text-align: center;
-    border: 1px dashed grey;
-    padding: 30px;
-    background-color: #E0E0E0;
+    background: url('../img/586.jpg') repeat 1px 94px/100%;
     grid-row-start: span 2;
+}
+
+.item_36 {
+    background: #dad6d6 url('../img/586_2.jpg') no-repeat 0 88px/100%;
+}
+
+.item_37 {
+    grid-column-start: span 6;
+    background-color: #F5F5F5;
 }

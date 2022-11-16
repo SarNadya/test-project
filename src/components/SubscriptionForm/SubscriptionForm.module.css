@@ -1,0 +1,11 @@
+.wrap {
+    color: #fff;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    padding: 5px;
+    background: inherit;
+    cursor: pointer;
+}

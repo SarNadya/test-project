@@ -1,0 +1,16 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    width: 39.6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: grey;
+}
