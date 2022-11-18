@@ -11,7 +11,7 @@ const JhonsonsFeedback = () => {
             </div>
             <h4 className={styles.title}> Martin H.Jhonsons </h4>
             <div className={styles.rating}>
-                <Rating name="read-only" value={5} readOnly />
+                <Rating name="read-only" value={5} size="small" readOnly />
             </div>
             <p className={styles.feedback}>
                 Together, we'll couple our knowledge, expertise, and

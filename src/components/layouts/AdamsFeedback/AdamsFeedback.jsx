@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../SchultsFeedback/SchultsFeedback.module.css';
+import styles from './AdamsFeedback.module.css';
 import Rating from '@mui/material/Rating';
 import avatar from '../../img/60.jpg';
 
@@ -11,7 +11,7 @@ const AdamsFeedback = () => {
             </div>
             <h4 className={styles.title}> David Mc. Adams </h4>
             <div className={styles.rating}>
-                <Rating name="read-only" value={5} readOnly />
+                <Rating name="read-only" value={5} size="small" readOnly />
             </div>
             <p className={styles.feedback}>
                 In most urban areas, construction has already built

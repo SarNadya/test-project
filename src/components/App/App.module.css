@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     min-width: 320px;
     max-width: 1920px;
-    color: grey;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(173, 171, 171);
 }
 
 .App {
     display: grid;
     grid-template-columns: 19.5% 15.5% 15% 15.3% 15.1% 19.6%;
-    grid-template-rows: 240px repeat(10, 293px);
+    grid-template-rows: 240px repeat(10, 293px) 80px;
 }
 
 .item_1 {
@@ -21,14 +25,14 @@ body {
 
 .item_2 {
     text-align: left;
-    padding: 30px;
+    padding: 30px 0;
     background-color: #dad6d6;
     grid-column-start: span 3;
 }
 
 .item_3 {
     text-align: center;
-    padding: 30px;
+    padding: 50px 0;
     background-color: #282727;
 }
 
@@ -41,7 +45,7 @@ body {
 
 .item_5 {
     text-align: left;
-    padding: 30px;
+    padding: 33px 30px;
     background-color: #FFF01E;
     grid-column-start: span 2;
 }
@@ -56,6 +60,8 @@ body {
     text-align: center;
     padding: 30px;
     background-color: #FFFAFA;
+    font-size: 36px;
+    color: #202020;
 }
 
 .item_8 {
@@ -67,12 +73,26 @@ body {
 
 .item_9 {
     text-align: center;
-    padding: 30px;
+    padding: 82px 32px;
     background-color: #3491ee;
 }
 
-.PlayCircleIcon {
-    margin-top: 30px;
+.item_9 h4 {
+    font-size: 10.5px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 0px;
+    letter-spacing: 2.5px;
+}
+
+.item_9 img {
+    margin-top: 10px;
+}
+
+.item_9 h5 {
+    margin-top: 12px;
+    color: #fff;
+    font-weight: normal;
 }
 
 .item_10 {
@@ -85,17 +105,16 @@ body {
     text-align: center;
     padding: 30px;
     background-color: #F5F5F5;
-    grid-row-start: span 8;
+    grid-row-start: span 9;
 }
 
 .item_12 {
     text-align: left;
-    padding: 30px;
     background-color: #FFFAFA;
 }
 
 .item_13 {
-    background: url('../img/293.jpg') right/100% repeat;
+    background: url('../img/293.jpg') -3px -6px/100% repeat;
 }
 
 .item_16 {
@@ -107,13 +126,21 @@ body {
 
 .item_21 {
     text-align: center;
-    padding: 30px;
+    padding: 100px 30px;
     background-color: #FFF01E;
+}
+
+.item_21 h5 {
+    color: #202020;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-top: 12px;
 }
 
 .item_23 {
     text-align: center;
-    padding: 30px;
+    padding: 0;
     background-color: #202020;
     grid-column-start: span 3;
 }
@@ -127,7 +154,7 @@ body {
 
 .item_25 {
     text-align: left;
-    padding: 30px;
+    padding: 11px 32px;
     background-color: #dad6d6;
     grid-column-start: span 2;
 }
@@ -136,7 +163,7 @@ body {
     text-align: center;
     padding: 30px;
     background-color: #F5F5F5;
-    grid-row-start: span 5;
+    grid-row-start: span 6;
 }
 
 .item_27 {
@@ -155,32 +182,45 @@ body {
 .item_29 {
     text-align: left;
     padding: 30px;
-    background: url('../img/293.jpg') right/100% repeat;
+    background: url('../img/293.jpg') -3px -6px/100% repeat;
+}
+
+.item_30 {
+    text-align: left;
+    padding: 24px 32px;
+    background-color: #3491ee;
 }
 
 .item_32 {
     text-align: left;
     padding: 30px;
-    background: url('../img/293.jpg') right/100% repeat;
+    background: url('../img/293.jpg') -3px -6px/100% repeat;
 }
 
 .item_34 {
     text-align: left;
-    padding: 30px;
+    padding: 25px 32px;
     background-color: #fff;
     grid-row-start: span 2;
 }
 
 .item_35 {
-    background: url('../img/586.jpg') repeat 1px 94px/100%;
+    background: url('../img/586.jpg') repeat 1px 10px/100%;
     grid-row-start: span 2;
 }
 
 .item_36 {
-    background: #dad6d6 url('../img/586_2.jpg') no-repeat 0 88px/100%;
+    background: #dad6d6 url('../img/586_2.jpg') no-repeat 100%;
 }
 
 .item_37 {
-    grid-column-start: span 6;
     background-color: #F5F5F5;
+    padding: 34px 0;
+    grid-column-start: span 4;
+}
+
+.item_38 {
+    text-align: left;
+    padding: 6px 10px 6px 33px;
+    background-color: #3491ee;
 }

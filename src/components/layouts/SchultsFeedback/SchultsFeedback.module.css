@@ -1,0 +1,35 @@
+.avatar {
+    margin-bottom: 14px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #202020;
+}
+
+.rating {
+    margin-bottom: 5px;
+}
+
+.feedback {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.switch button {
+    width: 28px;
+    height: 5px;
+    border: none;
+    background-color: #202020;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.switch button:first-child {
+    opacity: 0.4;
+}

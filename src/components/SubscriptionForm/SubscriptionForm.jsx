@@ -6,12 +6,12 @@ import styles from './SubscriptionForm.module.css';
 const SubscriptionForm = () => {
     return (
         <div className={styles.wrap}>
-            <h2> SUBSCRIBE</h2>
-            <button></button>
+            <h2 className={styles.title}> SUBSCRIBE</h2>
+            <button className={styles.slider}></button>
             <Box
                 component="form"
                 sx={{
-                    '& > :not(style)': { m: 1, width: '20ch', backgroundColor:'#fff' },
+                    '& > :not(style)': { mb: 4, width: '93%', backgroundColor:'#fff'}
                 }}
                 noValidate
                 autoComplete="off"

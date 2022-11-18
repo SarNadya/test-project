@@ -2,13 +2,11 @@ import React from "react";
 import About from "../layouts/About/About";
 import AdamsFeedback from "../layouts/AdamsFeedback/AdamsFeedback";
 import BuildingArticle from "../layouts/BuildingArticle/BuildingArticle";
-import CapitalImprovements from "../layouts/CapitalImprovements/CapitalImprovements";
 import ComtemporaryVilla from "../layouts/ComtemporaryVilla/ComtemporaryVilla";
-import GeneralContracting from "../layouts/GeneralContracting/GeneralContracting";
+import Article from "../layouts/Article/Article";
 import JhonsonsFeedback from "../layouts/JhonsonsFeedback/JhonsonsFeedback";
 import News from "../layouts/News/News";
 import OurServices from "../layouts/OurServices/OurServices";
-import ProjectDesign from "../layouts/ProjectDesign/ProjectDesign";
 import SchultsFeedback from "../layouts/SchultsFeedback/SchultsFeedback";
 import SubscriptionForm from "../SubscriptionForm/SubscriptionForm";
 import styles from './App.module.css';
@@ -25,8 +23,17 @@ import ExpertWitnes from "../layouts/ExpertWitnes/ExpertWitnes";
 import Procurement from "../layouts/Procurement/Procurement";
 import ProjectManagments from "../layouts/ProjectManagments/ProjectManagments";
 import Footer from "../Footer/Footer";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import IconButton from '@mui/material/IconButton';
 
 function App() {
+  const theme = createTheme({
+    palette: {
+        black: {
+        main: '#000',
+        },
+    },
+});
   return (
     <div className={styles.App}>
       <div className={styles.item_1}></div>
@@ -47,7 +54,11 @@ function App() {
       <div className={styles.item_8}></div>
       <div className={styles.item_9}>
         <div className={styles.PlayCircleIcon}>
-          <PlayCircleIcon sx={{ fontSize: 90 }}/>
+          <ThemeProvider theme={theme}>
+            <IconButton aria-label="play">
+              <PlayCircleIcon color='black' sx={{ fontSize: 90 }}/>
+            </IconButton>
+          </ThemeProvider>
         </div>
         <h4> COMPANY VIDEO</h4>
       </div>
@@ -58,7 +69,10 @@ function App() {
       </div>
       <div className={styles.item_13}></div>
       <div className={styles.item_12}>
-        <GeneralContracting/>
+        <Article
+          title={'General Contracting'}
+          article={'This allows the Design and Engineering team to originate drawings, specifications, structural calculations, details and scopes of work that deliver exactly what the client had intended to achieve.'}
+        />
       </div>
       <div className={styles.item_13}></div>
       <div className={styles.item_16}></div>
@@ -66,11 +80,17 @@ function App() {
         <Slider value={'03/06'}/>
       </div>
       <div className={styles.item_12}>
-        <ProjectDesign/>
+        <Article
+          title={'Project Design and engineering'}
+          article={'Through Stage-Gate, Design and Engineering methodology, DMCS ensure client-partners realize clearly defined project objective to achieve intended results.'}
+        />
       </div>
       <div className={styles.item_13}></div>
       <div className={styles.item_12}>
-        <CapitalImprovements/>
+        <Article
+          title={'Capital Improvements'}
+          article={'This results in scope creep and slippage of the schedule that ultimately result in additional cost to the owner.'}
+        />
       </div>
       <div className={styles.item_21}>
         <img src={pdf_logo} alt='pdf_logo'/>
@@ -99,7 +119,7 @@ function App() {
       <div className={styles.item_29}>
         <Construction/>
       </div>
-      <div className={styles.item_9}>
+      <div className={styles.item_30}>
         <News/>
       </div>
       <div className={styles.item_7}>
@@ -123,13 +143,12 @@ function App() {
       <div className={styles.item_7}>
         <Slider value={'01/09'}/>
       </div>
-      <div className={styles.item_9}>
+      <div className={styles.item_38}>
         <SubscriptionForm/>
       </div>
       <div className={styles.item_37}>
         <Footer/>
       </div>
-      
     </div>
   );
 }

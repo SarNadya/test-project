@@ -6,10 +6,10 @@ const ExpertWitnes = () => {
     return (
         <div>
             <div className={styles.icon}>
-                <BoltIcon color='primary'/>
+                <BoltIcon fontSize='large' color='primary'/>
             </div>
-            <h3>55 000</h3>
-            <p> Expert Witness </p>
+            <h3 className={styles.amount}>55 000</h3>
+            <p className={styles.title}> Expert Witness </p>
         </div>
     );
 };

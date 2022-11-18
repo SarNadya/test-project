@@ -24,23 +24,25 @@ const MenuBar = () => {
     return (
         <div className={styles.menu}>
             <ThemeProvider theme={theme}>
-                <Link href='https://' title='facebook'>
-                    <FacebookIcon color='white'/>
-                </Link>
+                <div className={styles.wrap}>
+                    <Link href='https://' title='facebook'>
+                        <FacebookIcon color='white'/>
+                    </Link>
 
-                <Link href='https://' title='twitter'>
-                    <TwitterIcon color='white'/>
-                </Link>
+                    <Link href='https://' title='twitter'>
+                        <TwitterIcon color='white'/>
+                    </Link>
 
-                <IconButton aria-label="cart">
-                    <Badge badgeContent={99} color="yellow">
-                        <ShoppingCartIcon color="white"/>
-                    </Badge>
-                </IconButton>
+                    <IconButton aria-label="cart">
+                        <Badge badgeContent={99} color="yellow">
+                            <ShoppingCartIcon color="white"/>
+                        </Badge>
+                    </IconButton>
 
-                <IconButton aria-label="burger-menu">
-                    <MenuIcon color='white'/>
-                </IconButton>
+                    <IconButton sx={{p: 0}} aria-label="burger-menu">
+                        <MenuIcon fontSize='large' color='white'/>
+                    </IconButton>
+                </div>
             </ThemeProvider>
         </div>
     );

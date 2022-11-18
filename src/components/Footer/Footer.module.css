@@ -1,10 +1,16 @@
 .wrap {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.copyright span {
+    color: #3491ee;
 }
 
 .navigation {
-    width: 39.6%;
+    width: 51%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,4 +19,8 @@
 .navigation a {
     text-decoration: none;
     color: grey;
+}
+
+.navigation a:nth-child(2) {
+    color: #3491ee;
 }

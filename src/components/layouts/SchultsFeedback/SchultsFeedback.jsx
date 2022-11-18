@@ -11,7 +11,7 @@ const SchultsFeedback = () => {
             </div>
             <h4 className={styles.title}> Tony SH. Schults </h4>
             <div className={styles.rating}>
-                <Rating name="read-only" value={5} readOnly />
+                <Rating name="read-only" value={5} size="small" readOnly />
             </div>
             <p className={styles.feedback}>
                 When selecting DMCS as the design-build team, clients

@@ -1,5 +1,32 @@
+.wrap {
+    color: #202020;
+}
+
+.title {
+    font-size: 29px;
+    width: 70%;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.slider {
+    background-color: #202020;
+    border: none;
+    height: 3px;
+    width: 40px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.article {
+    font-size: 15px;
+    margin-bottom: 23px;
+}
+
 .button {
     background: #202020;
     color: #FFF;
-    padding: 15px;
+    padding: 14px 19px;
+    font-size: 13px;
+    cursor: pointer;
 }

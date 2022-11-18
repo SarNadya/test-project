@@ -20,7 +20,7 @@ const Search = () => {
                 <TextField
                     id="input-with-icon-textfield"
                     label="What you're looking for"
-                    sx={{ m: 10, width: '80%' }}
+                    sx={{ mt: 14, mr: 45, width: '55%' }}
                     InputProps={{
                         endAdornment: (
                             <InputAdornment position="end">
@@ -31,6 +31,7 @@ const Search = () => {
                         ),
                     }}
                     variant="standard"
+                    size="normal"
                 />
             </ThemeProvider>
         </div>

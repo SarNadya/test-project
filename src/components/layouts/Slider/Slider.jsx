@@ -15,12 +15,12 @@ const Slider = ({value}) => {
     return (
         <div>
             <ThemeProvider theme={theme}>
-                <IconButton aria-label="arrow-right">
-                    <ArrowRightIcon color='grey'/>
+                <IconButton sx={{mb: 5}} aria-label="arrow-right">
+                    <ArrowRightIcon color='grey' fontSize='large'/>
                 </IconButton>
                 <div>{value}</div>
-                <IconButton aria-label="arrow-right">
-                    <ArrowLeftIcon color='grey'/>
+                <IconButton sx={{mt: 4}} aria-label="arrow-right">
+                    <ArrowLeftIcon color='grey' fontSize='large'/>
                 </IconButton>
             </ThemeProvider>
         </div>

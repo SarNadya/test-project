@@ -1,0 +1,24 @@
+.avatar {
+    margin-bottom: 11px;
+}
+
+.title {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #202020;
+}
+
+.rating {
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 28px;
+}
+
+.feedback {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 14px;
+    line-height: 23px;
+    color: grey;
+}

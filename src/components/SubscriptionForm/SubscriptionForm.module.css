@@ -2,10 +2,32 @@
     color: #fff;
 }
 
+.title {
+    letter-spacing: 3.7px;
+    margin-bottom: 3px;
+}
+
+.slider {
+    background-color: #fff;
+    border: none;
+    height: 3px;
+    width: 38px;
+    margin-left: 3px;
+    margin-bottom: 63px;
+}
+
+.form {
+    height: 10px;
+    width: 60%;
+    background-color: #fff;
+}
+
 .button {
     color: #fff;
     border: none;
     padding: 5px;
     background: inherit;
     cursor: pointer;
+    font-size: 13px;
+    margin-left: 70%;
 }

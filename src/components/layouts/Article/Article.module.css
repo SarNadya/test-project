@@ -1,19 +1,17 @@
 .wrap {
-    padding: 10px 28px;
+    padding: 10px 25px;
 }
 
 .title {
     color: #202020;
-    margin-top: 11px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     width: 60%;
-    font-size: 28px;
 }
 
 .slider {
     background-color: #202020;
     border: none;
-    height: 5px;
+    height: 6px;
     width: 40px;
     cursor: pointer;
 }

@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from './Procurement.module.css';
+import styles from '../ExpertWitnes/ExpertWitnes.module.css';
 import SettingsIcon from '@mui/icons-material/Settings';
 
 const Procurement = () => {
     return (
         <div>
             <div className={styles.icon}>
-                <SettingsIcon color='primary'/>
+                <SettingsIcon fontSize='large' color='primary'/>
             </div>
-            <h3>18 000</h3>
-            <p> Procurement </p>
+            <h3 className={styles.amount}>18 000</h3>
+            <p className={styles.title}> Procurement </p>
         </div>
     );
 };
