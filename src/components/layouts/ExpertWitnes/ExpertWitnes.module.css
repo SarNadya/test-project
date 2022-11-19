@@ -4,7 +4,6 @@
     background-color: #FFF01E;
     text-align: center;
     line-height: 100px;
-    
 }
 
 .amount {
@@ -18,4 +17,26 @@
     font-size: 15px;
     margin-top: 0;
     letter-spacing: 0.5px;
+}
+
+@media (max-width: 1384px) {
+    .amount {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 80px;
+    }
+
+    .amount {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
 }

@@ -4,3 +4,15 @@
     justify-content: space-between;
     margin-left: 90px;
 }
+
+@media (max-width: 1632px) {
+    .wrap {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 1124px) {
+    .wrap {
+        margin-left: 10px;
+    }
+}

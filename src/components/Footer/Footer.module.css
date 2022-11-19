@@ -24,3 +24,32 @@
 .navigation a:nth-child(2) {
     color: #3491ee;
 }
+
+@media (max-width: 1470px) {
+    .wrap {
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 1260px) {
+    .wrap {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .wrap {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        font-size: 12px;
+    }
+
+    .copyright {
+        line-height: 30px;
+    }
+
+    .navigation {
+        width: 80%;
+    }
+}

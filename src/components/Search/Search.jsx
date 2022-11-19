@@ -1,6 +1,4 @@
 import React from 'react';
-import styles from './Search.module.css';
-import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
@@ -15,12 +13,12 @@ const Search = () => {
     });
 
     return (
-        <div className={styles.wrap}>
+        <div>
             <ThemeProvider theme={darkTheme}>
                 <TextField
                     id="input-with-icon-textfield"
                     label="What you're looking for"
-                    sx={{ mt: 14, mr: 45, width: '55%' }}
+                    sx={{ mt: '12%', mr: '38%', width: '55%' }}
                     InputProps={{
                         endAdornment: (
                             <InputAdornment position="end">

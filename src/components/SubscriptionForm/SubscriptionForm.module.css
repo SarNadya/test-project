@@ -31,3 +31,54 @@
     font-size: 13px;
     margin-left: 70%;
 }
+
+@media (max-width: 1690px) {
+    .button {
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 1323px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .button {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 1195px) {
+    .title {
+        font-size: 17px;
+    }
+
+    .slider {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 1107px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .button {
+        margin-left: 45%;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 940px) {
+    .title {
+        font-size: 14px;
+    }
+
+    .button {
+        margin-left: 40%;
+    }
+}

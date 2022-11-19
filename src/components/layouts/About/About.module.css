@@ -30,3 +30,55 @@
     font-size: 13px;
     cursor: pointer;
 }
+
+@media (max-width: 1456px) {
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1260px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .slider {
+        margin-bottom: 4px;
+    }
+
+    .button {
+        padding: 10px 19px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .title {
+        font-size: 16px;
+    }
+
+    .article {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .button {
+        margin-top: 20px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .article {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+}

@@ -22,3 +22,56 @@
     line-height: 23px;
     color: grey;
 }
+
+@media (max-width: 1483px) {
+    .feedback {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media (max-width: 1260px) {
+    .avatar {
+        display: none;
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .rating {
+        margin-bottom: 15px;
+    }
+
+    .feedback {
+        line-height: 20px;
+        margin-bottom: 0;
+        -webkit-line-clamp: 7;
+    }
+}
+
+@media (max-width: 1195px) {
+    .rating {
+        margin-bottom: 10px;
+    }
+
+    .feedback {
+        -webkit-line-clamp: 5;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 1055px) {
+    .title {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .feedback {
+        font-size: 11px;
+    }
+}

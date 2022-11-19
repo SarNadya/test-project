@@ -20,3 +20,66 @@
     font-size: 16px;
     line-height: 21px;
 }
+
+@media (max-width: 1640px) {
+    .article {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media (max-width: 1524px) {
+    .title {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .article {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1368px) {
+    .title {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .article {
+        font-size: 14px;
+        line-height: 18px;
+        -webkit-line-clamp: 8;
+    }
+}
+
+@media (max-width: 1264px) {
+    .title {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .article {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .article {
+        -webkit-line-clamp: 3;
+    }
+}
+
+@media (max-width: 940px) {
+    .title {
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+}

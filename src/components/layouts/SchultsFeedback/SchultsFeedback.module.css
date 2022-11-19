@@ -33,3 +33,46 @@
 .switch button:first-child {
     opacity: 0.4;
 }
+
+@media (max-width: 1767px) {
+    .feedback {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1423px) {
+    .avatar {
+        display: none;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .feedback {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .feedback {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .feedback {
+        font-size: 14px;
+        line-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}
